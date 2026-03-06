@@ -9,6 +9,7 @@ public class Square extends Rectangle {
             Square squ = (Square) obj;
             return width == squ.width;
         }
+
         return false;
     }
 }
